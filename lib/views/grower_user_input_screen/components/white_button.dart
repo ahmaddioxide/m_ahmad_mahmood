@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:m_ahmad_mahmood/views/theme/colors.dart';
 import 'package:neumorphic_button/neumorphic_button.dart';
 
@@ -17,12 +18,12 @@ class WhiteButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return NeumorphicButton(
-        borderRadius: 20,
-        width: 100,
-        height: 50,
-        backgroundColor: Colors.grey[200]!,
-        borderColor: Colors.white60,
-        borderWidth: 1,
+        borderRadius: 20.r,
+        width: 100.w,
+        height: 45.h,
+        backgroundColor: Colors.white38,
+        borderColor: Colors.white54,
+        borderWidth: 0.7,
         bottomRightShadowColor: Colors.grey.shade500,
         topLeftShadowColor: Colors.white,
         onTap: () {
@@ -37,7 +38,7 @@ class WhiteButton extends StatelessWidget {
                 Shadow(
                   color: Colors.grey.shade600,
                   offset: const Offset(0.5, 0.7),
-                  blurRadius: 1,
+                  blurRadius: 1.r,
                 ),
               ],
             ),

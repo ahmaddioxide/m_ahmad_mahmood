@@ -1,16 +1,9 @@
-# m_ahmad_mahmood
+# ReadMe
 
-Project that have solved questions given for the position of Flutter Developer at ITCoderz
+## Neumorphism UI and Rotatable Wheel
 
-## Getting Started
+In this project, I created a user interface (UI) with a Neumorphism design style, emphasizing soft, tactile elements. This involved meticulously fine-tuning shadows, gradients, and colors.
 
-This project is a starting point for a Flutter application.
+Additionally, the project featured a rotatable wheel component, enabling users to interact with a circular number selector. Implementing this required touch-based rotation and accurate number selection logic.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project combines Neumorphism aesthetics with an interactive rotatable wheel, enhancing the overall user experience.
